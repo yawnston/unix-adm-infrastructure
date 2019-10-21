@@ -1,0 +1,5 @@
+*.raw
+old/
+*.qcow2
+*.sock
+*.iso
