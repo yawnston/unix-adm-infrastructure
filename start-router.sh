@@ -17,8 +17,8 @@ qemu-system-x86_64 \
 	-m 1G \
 	-nic vde,sock=/tmp/vde-backbone.sock,mac=52:54:00:36:12:01 \
 	-nic vde,sock=/home/crhad/vde-crhad-1.sock,mac=52:54:00:00:12:01 \
-	-enable-kvm 
-	#-cdrom archlinux-2019.10.01-x86_64.iso
+	-enable-kvm \
+	-daemonize
 
 
 

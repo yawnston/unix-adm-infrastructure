@@ -13,7 +13,8 @@ qemu-system-x86_64 \
 	-drive file=arch_clone_img.raw,format=raw \
 	-m 1G \
 	-nic vde,sock=/home/crhad/vde-crhad-1.sock,mac=52:54:00:00:12:02 \
-	-enable-kvm 
+	-enable-kvm \
+	-daemonize
 
 
 

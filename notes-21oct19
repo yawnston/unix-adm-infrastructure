@@ -1,0 +1,7 @@
+- no more vnc -> use ssh -J to connect to machines from now on
+
+- optional: DHCP server - LISTENING ON INTERNAL NETWORK, NOT VDE_BACKBONE
+ 	using dhcpd (preferred) or systemd-networkd
+- HW: configuration of unbound on router - responds to only DNS request from inside my private network
+
+- if SSH is slow -> entropy is too low -> install haveged
